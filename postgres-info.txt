@@ -1,0 +1,32 @@
+
+summary.installation.directory: C:\Program Files\PostgreSQL\15\data
+summary.server.installation.directory: C:\Program Files\PostgreSQL\15\data
+summary.data.directory: C:\Program Files\PostgreSQL\15\data\data
+summary.database.port: 5432
+summary.database.superuser: postgres
+summary.serviceaccount: NT AUTHORITY\NetworkService
+summary.databaseservice: postgresql-x64-15
+summary.clt.installation.directory: C:\Program Files\PostgreSQL\15\data
+summary.pgadmin.installation.directory: C:\Program Files\PostgreSQL\15\data\pgAdmin 4
+summary.sbp.installation.directory: C:\Program Files\PostgreSQL\15\data
+summary.installation.logfile: C:\Users\Freddy\AppData\Local\Temp\install-postgresql.log
+
+passw= 1963Fosierras
+
+Por si a alguien se olvidó la password, como a mí jeje: https://dba.stackexchange.com/questions/44586/forgotten-postgresql-windows-password
+
+
+https://e-mc2.net/es/configuracion-basica-de-postgresql
+
+Encriptado con MD5
+transporte=# SELECT MD5('Freddy Otoniel Sierra Silva');
+               md5
+----------------------------------
+ b4cfcc4dfa2607e291ac3c17d7a8edc1
+(1 fila)
+
+Tipos de datos
+https://www.todopostgresql.com/postgresql-data-types-los-tipos-de-datos-mas-utilizados/
+
+Documentación
+https://www.postgresql.org/docs/11/datatype.html
